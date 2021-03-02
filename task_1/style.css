@@ -1,0 +1,88 @@
+body {}
+
+.flag__uk {
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(rgb(13, 33, 216) 50%, rgb(247, 231, 6) 50%);
+    border: 1px solid #000;
+}
+
+.flag__japan {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(225, 233, 236);
+    border: 1px solid #000;
+    margin: 10px 0px 0px 0px;
+}
+
+.flag__japan__title {
+    background-color: rgb(228, 37, 24);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+.flag__iceland {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid #000;
+}
+
+.flag__iceland__vertical {
+    transform: translate(-35px);
+    border-left: 30px solid #fff;
+    height: 65%;
+    padding: 35px 0px 0px 0px;
+    margin-left: 40%;
+    z-index: 0;
+}
+
+.flag__iceland__vertical_1 {
+    height: 100%;
+    width: 20px;
+    margin-left: -25px;
+    background-color: rgb(228, 8, 8);
+    margin-top: -35px;
+    position: absolute;
+}
+
+.flag__iceland__horiz {
+    height: 25px;
+    width: 190px;
+    background-color: #fff;
+    margin-left: -78%;
+}
+
+.flag__iceland__horiz_2 {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(228, 8, 8);
+    padding: 5px 0px;
+    border: 5px solid #fff;
+    margin-left: -5px;
+}
+
+.flag__chech {
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(rgb(210, 216, 240) 50%, rgb(247, 27, 11) 50%);
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #000;
+}
+
+.flag__chech_aft {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(82, 117, 230);
+    border-bottom: 50px solid transparent;
+    position: relative;
+    z-index: 1;
+}
